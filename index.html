@@ -1,35 +1,65 @@
 <doctype html>
-    <html>
-        <head>
-            <title>Raph.</title>
-            <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
-            <div id="snow">
-</div>
-            <center>
-                <br>
-                <style>
-                body{
-                    color: white;
-                    font-size: 250%;
-                }</style>
-                <h1 style="font-family: 'Bangers', cursive;">Raph</h1>
-                        <style>
-                        body{
-                            background-image: url("nycsnow.jpg");
-                            width: 99%;
-                            height: 97%;
-                        }
-                        .bio{
-                            font-size: 90%;
-                        }
-                        .full{
-                            width: 7%;
-                            height: auto;
-                        }</style>
-                        <h2 class="bio"style="font-family: 'Bangers', cursive;">Just an artist.</h2>
-                        <a href="https://raphart.carbonmade.com/"><h3 class="bio"style="font-family: 'Bangers', cursive;">Portfolio</h3></a>
+<html>
+  <header>
+    <title>Raph.</title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" />
+
+    <style>
+        body{
+            background-image: url("nycsnow.jpg");
+            width: 99%;
+            height: 97%;
+            font-family: 'Bangers', cursive;
+            color: white;
+            font-size: 250%;
+        }
+        .bio{
+            font-size: 90%;
+        }
+        .full{
+            width: 7%;
+            height: auto;
+        }
+        
+                /* customizable snowflake styling */
+        .snowflake {
+        color: #fff;
+        font-size: 1em;
+        font-family: Arial;
+        text-shadow: 0 0 1px #000;
+        }
+
+        @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+
+        .gif {
+            width: 38%;
+            height: 38%;
+        }
+        #banner, #content{
+            margin: 0 auto;
+            text-align: center;
+            padding: 0;
+        }
+        #banner h1 {
+            margin-top: 0.6em;
+        }
+        #banner h2 {
+            font-size: 90%;
+        }
+    </style>
+
+
+
+  </header>
+  <body>
+    <div id="banner">
+        <h1>Raph</h1>
+        <h2>Just an artist.</h2>
+    </div>
+
+    <div id="content">
+                        <a href="https://raphart.carbonmade.com/"><h3 class="bio">Portfolio</h3></a>
                         <html>
-<body>
   <embed src="ncs.mp3" autostart="true" loop="true" width="2" height="0">
   </embed>
 </body>
@@ -46,56 +76,44 @@ onmouseout="TW.width='120';TW.height='70';" /></a>
 <a href="http://steamcommunity.com/id/raphxd"><img src="steam.png" width="120" height="70" name="ST"
 onmouseover="ST.width='130';ST.height='80';"
 onmouseout="ST.width='120';ST.height='70';" /></a>
-                <style>
-/* customizable snowflake styling */
-.snowflake {
-  color: #fff;
-  font-size: 1em;
-  font-family: Arial;
-  text-shadow: 0 0 1px #000;
-}
+<br>
+                        <br>
+                        <br>
+                        
+                        <img class="full"src="http://25.media.tumblr.com/6ef8e70a84f9bdc30da0c7fabe384d7f/tumblr_metjen7OSX1r8vfr7o1_500.gif">
 
-@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
-</style>
-<div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-</div>
-                        <br>
-                        <br>
-                        <br>
-                        <style>
-                        .gif{
-                            width: 38%;
-                            height: 38%;
-                        }
-                        </style>
-                        <a><img class="full"src="http://25.media.tumblr.com/6ef8e70a84f9bdc30da0c7fabe384d7f/tumblr_metjen7OSX1r8vfr7o1_500.gif"></a>
+
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+    </div>
+    </div>
+  </body>
+</html>                     
